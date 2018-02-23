@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
+    'plugin:vue/recommended',
     'eslint-config-axon-base',
   ],
   plugins: ['plugin:vue/recommended'],

@@ -1,6 +1,6 @@
 {
-  "name": "@axon/eslint-config-react",
-  "version": "0.0.1",
+  "name": "eslint-config-axon-react",
+  "version": "0.0.3",
   "description": "Axon's React JS ESLint config",
   "main": "index.js",
   "keywords": [
@@ -15,7 +15,8 @@
   "author": "Vlad Khitev <vlad.khitev@axondevgroup.com>",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-axon-base": "^1.0.0"
+    "eslint-config-axon-base2": "^0.0.1",
+    "eslint-config-airbnb": "^16.1.0"
   },
   "peerDependencies": {
     "eslint": "^4.18.1",

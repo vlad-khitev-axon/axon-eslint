@@ -1,13 +1,9 @@
 module.exports = {
   extends: [
-    'eslint-config-airbnb-base',
+    'airbnb-base',
     'prettier',
   ],
-  parserOptions: {
-    ecmaVersion: 2017,
-    sourceType: 'module',
-  },
-  plugins: ['prettier']
+  plugins: ['prettier'],
   rules: {
     'prettier/prettier': [
       'error',
@@ -24,5 +20,5 @@ module.exports = {
     'import/no-unresolved': 'warn',
     'object-curly-newline': 'off',
     'object-curly-spacing': ['error', 'never'],
-  }
+  },
 };

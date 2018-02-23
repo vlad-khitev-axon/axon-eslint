@@ -1,6 +1,6 @@
 {
-  "name": "@axon/eslint-config-base",
-  "version": "0.0.1",
+  "name": "eslint-config-axon-base2",
+  "version": "0.0.2",
   "description": "Axon's base JS ESLint config",
   "main": "index.js",
   "keywords": [

@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
-    'eslint-config-axon-base',
-    'eslint-config-airbnb',
+    'airbnb',
+    'axon-base2',
+    'prettier/react'
   ],
-  plugins: ['jsx-a11y', 'react'],
 };
