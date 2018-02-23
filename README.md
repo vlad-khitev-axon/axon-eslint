@@ -1,6 +1,6 @@
 # Axon eslint configs
 
-## Eslint
+## Linting and formatting
 
 First, configure eslint and prettier following instructions in the appropriate package:
 
