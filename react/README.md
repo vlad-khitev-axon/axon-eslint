@@ -1,4 +1,4 @@
-# eslint-config-axon-base
+# eslint-config-axon-react
 
 This package provides Axon's React JS .eslintrc as an extensible shared config.
 
@@ -9,7 +9,7 @@ Prettier is configured out of the box.
 ### Yarn
 
 ```bash
-yarn add -D eslint prettier babel-eslint eslint-plugin-import eslint-plugin-prettier eslint-plugin-jsx-a11y eslint-plugin-react
+yarn add -D eslint-config-axon-react eslint prettier babel-eslint eslint-plugin-import eslint-plugin-prettier eslint-plugin-jsx-a11y eslint-plugin-react
 ```
 
 Add `extends: 'axon-react'` to your `.eslintrc.js`
@@ -18,7 +18,7 @@ Add `extends: 'axon-react'` to your `.eslintrc.js`
 ### npm
 
 ```bash
-npm install --save-dev eslint prettier babel-eslint eslint-plugin-import eslint-plugin-prettier eslint-plugin-jsx-a11y eslint-plugin-react
+npm install --save-dev eslint-config-axon-react eslint prettier babel-eslint eslint-plugin-import eslint-plugin-prettier eslint-plugin-jsx-a11y eslint-plugin-react
 ```
 
 Add `extends: 'axon-react'` to your `.eslintrc.js`
