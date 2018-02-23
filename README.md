@@ -4,9 +4,9 @@
 
 First, configure eslint and prettier following instructions in the appropriate package:
 
-- [Base](./base/README.md)
-- [React](./react/README.md)
-- [Vue](./vue/README.md)
+- [Base](./base/)
+- [React](./react/)
+- [Vue](./vue/)
 
 ## Formatting Code on commit
 
