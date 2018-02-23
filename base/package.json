@@ -1,0 +1,30 @@
+{
+  "name": "@axon/eslint-config-base",
+  "version": "0.0.1",
+  "description": "Axon's base JS ESLint config",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "axon",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Vlad Khitev <vlad.khitev@axondevgroup.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.18.1",
+    "prettier": "^1.10.2",
+    "babel-eslint": "^8.2.2",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0"
+  },
+  "engines": {
+    "node": ">= 4"
+  }
+}
