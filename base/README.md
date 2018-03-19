@@ -9,16 +9,16 @@ Prettier is configured out of the box.
 ### Yarn
 
 ```bash
-yarn add -D eslint-config-axon-base eslint prettier babel-eslint eslint-plugin-import eslint-plugin-prettier
+yarn add -D @axon/eslint-config-base eslint prettier babel-eslint eslint-plugin-import eslint-plugin-prettier
 ```
 
-Add `extends: 'axon-base'` to your `.eslintrc.js`
+Add `extends: '@axon/eslint-config-base'` to your `.eslintrc.js`
 
 
 ### npm
 
 ```bash
-npm install eslint-config-axon-base --save-dev eslint prettier babel-eslint eslint-plugin-import eslint-plugin-prettier
+npm install @axon/eslint-config-base --save-dev eslint prettier babel-eslint eslint-plugin-import eslint-plugin-prettier
 ```
 
-Add `extends: 'axon-base'` to your `.eslintrc.js`
+Add `extends: '@axon/eslint-config-base'` to your `.eslintrc.js`

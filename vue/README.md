@@ -9,16 +9,16 @@ Prettier is configured out of the box.
 ### Yarn
 
 ```bash
-yarn add -D eslint-config-axon-vue eslint prettier babel-eslint eslint-plugin-import eslint-plugin-prettier eslint-plugin-vue
+yarn add -D @axon/eslint-config-vue eslint prettier babel-eslint eslint-plugin-import eslint-plugin-prettier eslint-plugin-vue
 ```
 
-Add `extends: 'axon-vue'` to your `.eslintrc.js`
+Add `extends: '@axon/eslint-config-vue'` to your `.eslintrc.js`
 
 
 ### npm
 
 ```bash
-npm install --save-dev eslint-config-axon-vue eslint prettier babel-eslint eslint-plugin-import eslint-plugin-prettier eslint-plugin-vue
+npm install --save-dev @axon/eslint-config-vue eslint prettier babel-eslint eslint-plugin-import eslint-plugin-prettier eslint-plugin-vue
 ```
 
-Add `extends: 'axon-vue'` to your `.eslintrc.js`
+Add `extends: '@axon/eslint-config-vue'` to your `.eslintrc.js`
