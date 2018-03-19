@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'airbnb',
-    'axon-base2',
+    '@axon/eslint-config-base',
     'prettier/react'
   ],
 };
